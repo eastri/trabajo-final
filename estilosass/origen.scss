@@ -1,0 +1,136 @@
+@import "resets";
+@import "header";
+@import "mains";
+@import "footer";
+@import "layout";
+
+
+
+/* VIDEO */
+
+.video {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+/* scroll clothing*/
+
+.clothing-main::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.clothing-main::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.clothing-main::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.clothing-main::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.clothing-main::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.clothing-main::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+/* scroll collabs*/
+
+
+
+.collabs-main::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.collabs-main::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.collabs-main::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.collabs-main::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.collabs-main::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.collabs-main::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+ 
+ 
+/* scroll works*/
+
+
+
+.works-main::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.works-main::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.works-main::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.works-main::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.works-main::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.works-main::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+/* scroll works*/
+
+
+
+.index-main::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.index-main::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.index-main::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.index-main::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.index-main::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.index-main::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tercer-entrega-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastri/tercera-entrega-proyecto-final-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eastri/tercera-entrega-proyecto-final-/issues"
+  },
+  "homepage": "https://github.com/eastri/tercera-entrega-proyecto-final-#readme",
+  "description": ""
+}

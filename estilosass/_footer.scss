@@ -1,0 +1,29 @@
+/*extends*/
+
+.position {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.container-style {
+    background-color: rgba( 70, 70, 70, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(161, 161, 161, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+
+.footer {
+    @extend .container-style;
+    @extend .position;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    grid-area: footer;
+    
+}
